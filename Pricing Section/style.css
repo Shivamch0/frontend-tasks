@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+    overflow: hidden;
+}
+
+h1{
+    text-align: center;
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+main section{
+    background-color: #ffffff;
+    height: 80vh;
+    width: 55vh;
+    border-radius: 25px;
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: 0.5s;
+}
+
+section:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+section h3{
+    font-size: 1.7rem;
+}
+
+.pricing i{
+    font-size: 1.6rem;
+}
+
+.pricing h5{
+    font-size: 2.4rem;
+}
+
+section p {
+    font-size: 1.1rem;
+}
+
+section button{
+    background: linear-gradient(to right , blue , cyan);
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+section button:hover{
+    cursor: pointer;
+    background: linear-gradient(to left , blue , cyan
+
+);
+}
+
+section span{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cross{
+    color : gray;
+}
